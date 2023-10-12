@@ -55,9 +55,9 @@ public:
 
         T *list = new T [length];
 
-        Node *current = head->next;
+        Node *current = head;
         for (int index = 0; index < length; index++) {
-            list[index] =  current->data;
+            list[index] = current->data;
             current = current->next;
         }
 

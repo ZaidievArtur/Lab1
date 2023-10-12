@@ -4,7 +4,7 @@ void Program::readFile() {
     std::wifstream file(fileName);
 
     if (!file.is_open()) {
-        printf("Error opening file");
+        std::cout<<("Error opening file");
         exit(1);
     }
 
@@ -17,7 +17,7 @@ void Program::readFile() {
     file.close();
 
     if (list.getLength() == 0) {
-        printf("File is empty.");
+        std::cout<<("File is empty.");
         exit(2);
     }
 }
