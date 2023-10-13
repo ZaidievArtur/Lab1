@@ -38,11 +38,11 @@ void Program::filter() {
     Human *data = list.get(&length);
 
     std::wstring fSecondName, fFirstName, fMiddleName;
-    std::cout << "Enter the filter for second name:\n";
+    std::cout << "Enter the filter for secondname:\n";
     getline(std::wcin, fSecondName);
-    std::cout << "Enter the filter for first name:\n";
+    std::cout << "Enter the filter for firstname:\n";
     getline(std::wcin, fFirstName);
-    std::cout << "Enter the filter for patronymic name:\n";
+    std::cout << "Enter the filter for middlename:\n";
     getline(std::wcin, fMiddleName);
 
     int counter = 0;
