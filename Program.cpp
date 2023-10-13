@@ -45,6 +45,7 @@ void Program::filter() {
     std::cout << "Enter the filter for middlename:\n";
     getline(std::wcin, fMiddleName);
 
+
     int counter = 0;
 
     std::cout << "Match list:\n";
